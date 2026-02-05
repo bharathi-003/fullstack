@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Review Analyzer</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="./Task4.css">
+</head>
+<body>
+
+  <h1>📊 Product Review Analysis</h1>
+
+  <button onclick="loadReviews()">Load Reviews</button>
+
+  <div class="container">
+    <div class="box">
+      <h3>JSON Data Preview</h3>
+      <pre id="jsonPreview"></pre>
+    </div>
+    <div class="box">
+      <h3>Analysis Result</h3>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <canvas id="chart"></canvas>
+
+  <script src="./Task4.js"></script>
+</body>
+</html>
