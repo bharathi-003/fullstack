@@ -1,5 +1,4 @@
 import  './Menu.css';
-import 'Menu.js';
 function Menu(){
     return(
         <>
